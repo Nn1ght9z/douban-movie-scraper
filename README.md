@@ -18,3 +18,14 @@ A Python web scraper for collecting Douban's Top 250 movies information || 豆�
 ## Installation || インストール
 ```bash
 pip install requests beautifulsoup4 xlwt || pip install requests beautifulsoup4 xlwt
+```
+
+## Important Notes || 注意事項
+- Respect website's robots.txt and terms of service || サイトのrobots.txtと利用規約を遵守してください  
+- Add proper delays (1-3s) between requests || リクエスト間に適切な遅延(1-3秒)を追加してください  
+- Rotate User-Agents if blocked || ブロックされた場合User-Agentを変更してください  
+- Website structure changes may require code updates || サイト構造変更時はコード修正が必要です  
+- Do NOT use for commercial purposes || 商業目的での使用は禁止です  
+- Maintain request frequency under 10 requests/min || リクエスト頻度は10回/分以下に保ってください  
+- Store data responsibly and delete if requested || データは責任を持って管理し、要請時は削除してください  
+- For educational purposes only || 教育目的のみでの使用  
